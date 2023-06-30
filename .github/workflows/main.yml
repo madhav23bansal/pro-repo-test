@@ -1,4 +1,4 @@
-name: Backend Request
+name: Update storybook data in DB
 
 on:
   push:
@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Send GET Request
-        run: curl -X GET https://d36e-122-172-135-76.in.ngrok.io/backend/deployment/add-gluestack-pro
+        run: curl -X GET "${{ secrets.BACKEND_URL }}?secret=${{ secrets.SECRET }}"
