@@ -1,0 +1,14 @@
+name: Backend Request
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  send-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send GET Request
+        run: curl -X GET https://d36e-122-172-135-76.in.ngrok.io/backend/deployment/add-gluestack-pro
