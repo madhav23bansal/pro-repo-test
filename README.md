@@ -1,4 +1,4 @@
-# gluestack-ui-pro (alpha)
+# gluestack-ui-pro (alpha) -
 
 <h3 align="center">
   <a href="https://github.com/gluestack/gluestack-ui">
